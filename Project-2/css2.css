@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --v:59px;
+}
+nav{
+    display: flex;
+    position: relative;
+   background-color: black;
+   height: 50px;
+   align-items: center;
+   opacity: 0.7;
+}
+nav::before{
+    content: "";
+    background-color: rgb(15, 13, 13);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.class{
+    display: flex;
+    height: 60px;
+    width: 1000px;
+    align-items: center;
+    
+}
+ul li{
+    padding: 10px;
+}
+ul li a{
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+ul li a:hover{
+    display: block;
+    font-size: 20px;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100px;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Ubuntu', sans-serif;
+cursor: pointer;
+    
+}
+#logo img{
+    height: 50px;
+margin-right: 50px;
+
+}
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    height: 680px;
+    justify-content: center;
+}
+#home::before{
+    top: 0px;
+    left: 0px;
+    content: "";
+    background:url('bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 750px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+.h{
+    font-size: 2.8rem;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px 2px black;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+p{
+    font-size: 1.hrem;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+.btn{
+    padding: 6px 20px;
+    border: 2px solid rgb(44, 41, 41);
+    background-color: rgb(179, 62, 62);
+    margin: 20px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+.btn:hover{
+    padding: 6px 20px;
+    border: 2px solid rgb(24, 29, 24);
+    background-color: rgb(21, 215, 73);
+    margin: 20px 20px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+section img{
+    height: 156px;
+}
+.service {
+    margin: 2px 20px;
+    
+    background-color: #6c9e6c;
+    border-radius: 40px;
+    border: 4px solid rgb(179, 21, 21);
+   
+}
+#services{
+    margin:  30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+section div p{
+    font-size: 15px;
+}
+#client-box{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#client-section{
+    height: 300px;
+}
+.h-p{
+    margin: 20px;
+    padding: 20px;
+}
+.service .h-p{
+    padding: 5px;
+
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    
+    background: url('bg.jpg')no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/*CONTACT SECTION*/
+
+#contact{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+#contact::before{
+    height: 500px;
+    width: 100%;
+
+    content: "";
+    position: absolute;
+    height: 100%;
+    background: url('contact.jpg') no-repeat center center/cover;
+    z-index: -1;
+}
+.form-group{
+    width: 40%;
+    
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+#contact-box input,#contact-box textarea{
+    display: block;
+    padding: 5px;
+    border-radius: 9px;
+    width: 250px;
+
+
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+    justify-content: center
+
+}
+h4{
+    font-size: 30px;
+    
+    
+    
+}
+
+
+
+/*UTILITY CLASSES*/
+.h-p{
+    font-size: 2.3rem ;
+    padding: 12px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.centre{
+text-align: center;
+font-family: 'Ubuntu', sans-serif;
+}
+

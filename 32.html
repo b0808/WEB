@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: block;
+            width: 233px;
+            padding: 10px;
+            border: 2px solid red;
+            margin: auto;
+
+        }
+        li:nth-child(2n){
+            color: greenyellow;
+        }
+        input{
+            display: block;
+        
+        }
+        input[type='text']{
+            border: 2px solid red;
+        }
+        a[target]{
+            font-size: 1opx;
+            color: green;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><a href="http://google.com" target="_blank">go to google</a></h1>
+
+        <form action="" class="control">
+            <input type="text" placeholder="enter your name ">
+            <input type="password" placeholder="enter your password ">
+            <input type="submit" value="enter">
+            
+        </form>
+        <ul>
+            <li class="item" id="id1">item1</li>
+            <li class="item" id="id2">item2</li>
+            <li class="item" id="id3">item3</li>
+            <li class="item" id="id4">item4</li>
+        </ul>
+    </div>
+    
+</body>
+</html>

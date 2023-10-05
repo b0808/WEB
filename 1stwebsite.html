@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayen goku</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url('goku.png') ;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+    }
+    .left{
+        position: absolute;
+        left: 26px;
+        top: 20px;
+        display: inline-block;
+        
+        
+    }
+    img{
+        width: 70px;
+        border-radius: 50px;
+    }
+    .right{
+        position: absolute;
+        right: 26px;
+        top: 20px;
+        display: inline-block;
+        
+        
+    }
+    .nav{
+        display:block;
+        width: 77%;
+        margin: auto;
+        position: relative;
+        
+    }
+    .navbar {
+        display: inline-block;  
+    }
+    .navbar li{
+        display: inline-block;  
+        
+    }
+    .navbar a{
+        background-color: rgb(0, 0, 0);
+        margin: 0%;
+        color: white;
+        text-decoration: none;
+        padding: 11px 105px;
+        font-size: 22px;
+        border: 5px solid white;
+    }
+    .navbar li :hover, .navbar li a.active{
+        text-decoration: underline;
+        color: rgb(62, 210, 22);
+        background-color: white;
+        border: 5px solid green;
+    }
+
+    .left div{
+        text-align: center;
+    }
+    
+    .btn{
+        color: white;
+        margin: auto;
+        background-color: rgb(134, 91, 101);
+        padding: 3px 10px;
+        border: 2px solid gray;
+        border-radius: 10px;
+        font-size:larger;
+        font-family: 'Bebas Neue', sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(22, 128, 214);
+    }
+    .container{
+        text-align: center;
+        background: url('/goku-2.webp');
+        background-repeat: no-repeat;
+        
+        margin: 106px 80px;
+        width: 20%;
+        padding: 70px;
+        border-radius: 28px;
+        
+    }
+    h1{
+        
+        text-align: center;
+    }
+    .form{
+        background-color: transparent;
+    }
+    .form input{
+        color: white;
+        text-decoration-color: white;
+        background: transparent;
+        position: relative;
+        left: 80px;
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        display: block;
+        padding: 3px 8px;
+        margin: 5px;
+        border: 5px solid rgb(144, 82, 11);
+    
+        
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="goku2.jpg" alt="">
+            <div>goku</div>
+        </div>
+        <div class="nav">
+        <ul class="navbar">
+            <li><a href="#">home </a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">power </a></li>
+            <li><a href="#">team </a></li>
+        </ul>
+
+
+        </div>
+        <div class="right">
+            <button class="btn">vegita </button>
+            <button class="btn">gohan </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> turnament of power </h1>
+        <form action="t.php">
+            <div class="form">
+               <input type="text" name="bc" placeholder="enter the name" >
+               <input type="text" name="bc" placeholder="enter the name">
+               <input type="text" name="bc" placeholder="enter the name">
+               <input type="text" name="bc" placeholder="enter the name">
+            <button class="btn2">submit</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

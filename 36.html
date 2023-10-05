@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: black;
+        }
+        .box{
+            height: 30px;
+            width: 20%;
+            background-color: red;
+            padding: 5px;
+            border: 5px;
+            position: relative;
+            animation-name: bss2;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+           /* animation-fill-mode: forwards;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-direction: reverse;*/
+          /*  animation: animation name , animatiion duration, animation-timing-function animation-delay animation-iteration-count,animation-fill-mode; */
+
+        }
+        @keyframes bss2{
+            0%{
+                top: 0px;
+                left: 0px;
+                
+            }
+        
+            25%{
+                top: 0px;
+                left: 400px;
+
+            }
+        
+            50%{
+                top: 400px;
+                left: 400px;
+
+            }
+        
+            75%{
+                top: 400px;
+                left: 0px;
+
+            }
+        
+            100%{
+                top: 0;
+                left: 0;
+
+            }
+        }
+@keyframes bss{
+    form{
+        width: 200px;
+    }
+    to{
+        width: 400px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">this is box </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <style>
+        
+    
+    body{
+        color: rgb(246, 233, 233);
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    header::before{
+        background: url('https://source.unsplash.com/collection/190727/1600x900') no-repeat center center/cover;
+        content: "";
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+    section {
+        height: 344px;
+        font-family: 'Bree Serif', serif;
+        margin: 3px 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        .navigation{
+            display: flex;
+            margin: 20px;
+            
+            
+        }
+        li{
+            list-style: none;
+            padding: 10px;
+            font-size: 20px;
+            
+        }
+        h3{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">home</li>
+                <li class="item">about</li>
+                <li class="item">contact</li>
+                <li class="item">dbz</li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h3>
+         welcome to dbz   
+        </h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis repellat doloribus nesciunt provident quaerat numquam accusantium possimus rem cum error aperiam, commodi maxime non, quod inventore ea laudantium dicta nostrum quia modi! Soluta, perspiciatis!
+        </p>
+    </section>
+
+</body>
+</html>
