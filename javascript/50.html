@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+          
+                 // string
+
+var str = "this is string"
+//first occurance of a substring
+var position = str.indexOf("is")
+console.log(position)
+// last occurance of substring
+position=str.lastIndexOf("is")
+console.log(position)
+// substring can't take negative value bht slice can take negative value
+var substr =str.slice(0,6)
+console.log(substr)
+var t=str.substr(0,6)
+console.log(t)
+var replace = str.replace('string', 'bhavesh')
+console.log(str)
+console.log(replace)
+console.log(str.toUpperCase())
+console.log(str.toLowerCase())
+var newatring = replace.concat(' sandbhor')
+console.log(newatring)
+var str_with_white_spaces = "    this contains          white spaces          "
+console.log(str_with_white_spaces)
+
+console.log(str_with_white_spaces.trim())
+
+var char10 = str.charAt(10)
+console.log(char10)
+
+console.log(str.charCodeAt(10))
+
+console.log(str[10])
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
